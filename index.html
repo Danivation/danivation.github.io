@@ -4,8 +4,16 @@
     <title>New GitHub Pages Site</title>
   </head>
   <body>
-    <p>
+    <p id="demo">
       This is a GitHub Pages site.
     </p>
+    <script>
+      async function fetchAsync () {
+        const response = await fetch('https://api.github.com');
+        return await response.json();
+      }
+      document.getElementById("demo").innerHTML = fetchAsync();
+      
+    </script>
   </body>
 </html>
