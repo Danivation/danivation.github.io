@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="style.css">
         <title>Danivation</title>
     </head>
     <body>
-        <p id="demo">
-            I'm the programmer for V5RC team 5069Y.
+        <div class="column left">
+            <h1 class="header">I'm Daniel,</h1>
+            <h3 class="header2">a programmer and robotics enthusiast.</h3>
+            <p class="content">
+I'm the programmer for VEX Robotics team <a href="https://www.robotevents.com/teams/V5RC/5069Y" target="_blank" rel="noopener noreferrer">5069Y</a>.
+I code in my free time. I have a lot of free time.
+            </p>
+            <button class="logo github" onclick="document.getElementById('githubLink').click()">
+                <a id="githubLink" href="https://github.com/Danivation" target="_blank" rel="noopener noreferrer"></a>
+            </button>
+        </div>
 
-            My current projects:
+        <div class="column right">
+            <h1 class="header">Projects:</h1>
+            <!--
+            <h2>1. DanieLib</h2>
+            <p class="description">     work in progress - coming soon</p>
+            -->
 
-            <a href="https://danivation.github.io/push-back-web-calculator/">Push Back web calculator</a>
-
-            <a href="https://github.com/Danivation/5069Y-PushBack">5069Y Push Back robot code</a>
-        </p>
+            <h2>1. <a href="https://danivation.github.io/push-back-web-calculator">push-back-web-calculator</a></h2>
+            <p class="description">A score calculator for the 2025-2026 V5RC game, Push Back. Fully web-based, cached for offline support, supports saving and loading scores, and has dark mode.</p>
+            
+            <button class="icon github" onclick="document.getElementById('calculatorGithub').click()">
+                <a id="calculatorGithub" href="https://github.com/Danivation/push-back-web-calculator" target="_blank" rel="noopener noreferrer"></a>
+            </button>
+            <button class="icon website" onclick="document.getElementById('websiteLink').click()">
+                <a id="websiteLink" href="https://danivation.github.io/push-back-web-calculator/" target="_blank" rel="noopener noreferrer"></a>
+            </button>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
