@@ -77,7 +77,7 @@ a:active {
 
 .website {
     margin-left: 10px;
-    background: url("globe.png") no-repeat center center;
+    background: url("images/globe.png") no-repeat center center;
     background-size: contain;
     border-radius: 50%;
     width: 30px;
@@ -85,7 +85,7 @@ a:active {
 }
 
 .github {
-    background: url("github-mark-white.png") no-repeat center center;
+    background: url("images/github-mark-white.png") no-repeat center center;
     background-size: contain;
     border-radius: 50%;
     width: 30px;
