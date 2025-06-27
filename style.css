@@ -10,7 +10,6 @@ body {
     margin-top: 2vh;
     height: 96vh;
     width: 100%;
-    animation: typing 3.5s steps(30, end);
 }
 
 .header {
