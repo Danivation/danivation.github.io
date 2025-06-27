@@ -106,3 +106,26 @@ a:active {
 .right {
     border-left: 1px solid gray;
 }
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        height: fit-content;
+    }
+    .left {
+        border-right: none;
+        border-bottom: 1px solid gray;
+    }
+    .right {
+        border-left: none;
+        border-top: 1px solid gray;
+    }
+    .logo {
+        position: relative;
+        margin-top: 200px;
+        margin-bottom: 30px;
+        bottom: 0px;
+        height: 30px;
+        max-height: 30px;
+    }
+}
