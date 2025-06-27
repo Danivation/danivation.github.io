@@ -128,4 +128,7 @@ a:active {
         height: 30px;
         max-height: 30px;
     }
+    .right {
+        margin-bottom: 50px;
+    }
 }
