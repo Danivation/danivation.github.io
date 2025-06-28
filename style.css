@@ -17,8 +17,13 @@ body {
     padding: 40px;
     padding-top: 30px;
     padding-bottom: 0px;
-    white-space: pre-line;
     font-size: 40pt;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: pre-line;
+    word-wrap: normal;
+    font-family: monospace;
+    white-space: normal;
+    display: inline-block;
 }
 h2 {
     margin: 30px 0px 0px 0px;
@@ -42,6 +47,12 @@ h3 {
 .content {
     margin: 20px 40px;
     white-space: pre-line;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    word-wrap: normal;
+    font-family: monospace;
+    font-size: 1.2rem;
+    overflow: hidden;
+    display: inline-block;
 }
 
 a {
