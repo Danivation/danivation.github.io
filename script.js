@@ -55,6 +55,6 @@ function typeNextCharHeader2() {
 }
 
 
-typeNextCharHeader();
-setTimeout(typeNextCharHeader2, 1200);
-setTimeout(typeNextCharContent, 3500);
+//typeNextCharHeader();
+//setTimeout(typeNextCharHeader2, 1200);
+//setTimeout(typeNextCharContent, 3500);
