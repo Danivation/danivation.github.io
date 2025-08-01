@@ -1,6 +1,7 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import "./index.css"
 import { Home } from "./Home";
+import { About } from "./About";
 
 export default function App() {
   return (
@@ -49,14 +50,6 @@ function Layout() {
           so you can think about this <Outlet> as a placeholder for
           the child routes we defined above. */}
       <Outlet />
-    </div>
-  );
-}
-
-function About() {
-  return (
-    <div>
-      <h2>About</h2>
     </div>
   );
 }
