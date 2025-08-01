@@ -16,6 +16,7 @@ code {
 
 @theme {
   --color-background: var(--background);
+  --color-accent: var(--accent);
   --color-text: var(--text);
 
   @keyframes fadeInUp {
@@ -50,6 +51,7 @@ code {
 @layer base {
   :root {
     --background: #131313;
+    --accent: #2f2f2f;
     --text: #ca8c8c;
   }
 }
