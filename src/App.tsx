@@ -2,6 +2,8 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 import "./index.css"
 import { Home } from "./Home";
 import { About } from "./About";
+import { Projects } from "./Projects";
+import { ProjectDotlists } from "./Projects/dotlists";
 
 export default function App() {
   return (
@@ -14,6 +16,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="projects/dotlists" element={<ProjectDotlists />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
@@ -30,7 +33,7 @@ function Layout() {
     <div>
       {/* A "layout route" is a good place to put markup you want to
           share across all the pages on your site, like navigation. */}
-      <nav className="flex fadein-0">
+      <nav className="flex fadein-0 font-medium">
         <ul className="flex flex-row gap-6">
           <li>
             <Link to="/">Home</Link>
@@ -50,14 +53,6 @@ function Layout() {
           so you can think about this <Outlet> as a placeholder for
           the child routes we defined above. */}
       <Outlet />
-    </div>
-  );
-}
-
-function Projects() {
-  return (
-    <div>
-      <h2>Projects</h2>
     </div>
   );
 }

@@ -16,16 +16,16 @@ export function Home() {
           I'm the programmer for VEX Robotics team 5069Y.<br />
           I like to code in my free time. I have a lot of free time.<br />
           I know C/C++, Python, HTML/JS/CSS, React, and some others.<br />
-          I am interested in engineering, robotics, aerospace and aviation, transit systems, and urban infrastructure.
+          I am interested in engineering, robotics, and much more.
         </p>
       </div>
       <div className="fadein-600">
         <hr className="my-3"/>
-        <p className="text-4xl font-medium m-5">Featured Projects</p>
-        <div className="grid grid-cols-3 gap-10 px-2 py-2">
-          <Project id="Dotlists" />
-          <Project id="Dotlists" />
-          <Project id="Dotlists" />
+        <p className="text-4xl font-medium m-5 text-center items-center justify-center">Featured Projects</p>
+        <div className="grid grid-cols-3 items-center justify-center gap-10 px-2 py-2">
+          <div />
+          <Project id="dotlists" />
+          <div />
         </div>
       </div>
     </>
