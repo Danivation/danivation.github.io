@@ -11,7 +11,8 @@ export function ProjectDotlists() {
       </div>
       <div className="fadein-400">
         <p>
-          Dotlists is a web app created to 
+          Dotlists is a web app created by a group of students who met through robotics. We are all passionate about open-source tools and
+          the idea that productivity should be free.
         </p>
       </div>
     </>

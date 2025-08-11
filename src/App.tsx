@@ -3,7 +3,7 @@ import "./index.css"
 import { Home } from "./Home";
 import { About } from "./About";
 import { Projects } from "./Projects";
-import { ProjectDotlists } from "./Projects/dotlists";
+import { ProjectDotlists } from "./Projects/Dotlists";
 
 export default function App() {
   return (

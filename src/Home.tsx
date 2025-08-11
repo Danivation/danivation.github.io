@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import "./index.css"
-import { Project } from "./components/Project";
+// import { Project } from "./components/Project";
 
 export function Home() {
   return (
@@ -23,9 +23,9 @@ export function Home() {
         <hr className="my-3"/>
         <p className="text-4xl font-medium m-5 text-center items-center justify-center">Featured Projects</p>
         <div className="grid grid-cols-3 items-center justify-center gap-10 px-2 py-2">
-          <div />
+          {/* <div />
           <Project id="dotlists" />
-          <div />
+          <div /> */}
         </div>
       </div>
     </>
