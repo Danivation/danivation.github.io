@@ -44,6 +44,9 @@ function Layout() {
           <li>
             <Link to="/projects">Projects</Link>
           </li>
+          <li>
+            <Link to="/robotics">Robotics</Link>
+          </li>
         </ul>
       </nav>
 
@@ -59,10 +62,10 @@ function Layout() {
 
 function NoMatch() {
   return (
-    <div>
-      <h2>Nothing to see here!</h2>
-      <p>
-        <Link to="/">Go to the home page</Link>
+    <div className="fadein-200">
+      <p className="py-8 items-center justify-center text-center">
+        <span className="text-6xl font-medium">404 Not Found</span><br />
+        <span className="text-xl">This page does not exist. <Link to="/" className="underline">Return to home page</Link></span>
       </p>
     </div>
   );
