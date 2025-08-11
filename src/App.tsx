@@ -3,7 +3,7 @@ import "./index.css"
 import { Home } from "./Home";
 import { About } from "./About";
 import { Projects } from "./Projects";
-import { ProjectDotlists } from "./Projects/Dotlists";
+// import { ProjectDotlists } from "./Projects/Dotlists";
 
 export default function App() {
   return (
@@ -16,7 +16,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="projects/dotlists" element={<ProjectDotlists />} />
+          {/* <Route path="projects/dotlists" element={<ProjectDotlists />} /> */}
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
@@ -33,7 +33,7 @@ function Layout() {
     <div>
       {/* A "layout route" is a good place to put markup you want to
           share across all the pages on your site, like navigation. */}
-      <nav className="flex fadein-0 font-medium">
+      <nav className="flex fadein-0 font-medium sticky">
         <ul className="flex flex-row gap-6">
           <li>
             <Link to="/">Home</Link>
@@ -49,8 +49,7 @@ function Layout() {
           </li>
         </ul>
       </nav>
-
-      <hr className="m-0 my-3 fadein-0"/>
+      <hr className="m-0 my-3 fadein-0 sticky"/>
 
       {/* An <Outlet> renders whatever child route is currently active,
           so you can think about this <Outlet> as a placeholder for
